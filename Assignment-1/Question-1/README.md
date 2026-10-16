@@ -25,7 +25,4 @@ To design a responsive multi-page food ordering website using HTML5 and external
 ## Technologies Used
 - HTML5
 - CSS3
-
-## Project Status
-In Progress
   
