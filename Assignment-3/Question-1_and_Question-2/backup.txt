@@ -1,0 +1,4 @@
+Idli 30
+Dosa 40
+Poori 35
+Tea 10

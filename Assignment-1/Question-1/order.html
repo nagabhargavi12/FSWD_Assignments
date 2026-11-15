@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Poshtik Campus &mdash; a student-friendly food ordering demo built with HTML5 and CSS3." name="description"/>
+  <title>
+   Order form | Poshtik Campus
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container topbar">
+    <a class="logo" href="index.html">
+     <span class="logo-icon">
+      ✳
+     </span>
+     Poshtik
+     <span>
+      Campus
+     </span>
+    </a>
+    <nav aria-label="Main navigation">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="index.html#menu">
+      Menu
+     </a>
+     <a href="cart.html">
+      Cart
+     </a>
+     <a href="order.html">
+      Order
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="contact.html">
+      Contact
+     </a>
+    </nav>
+    <a class="header-cta" href="order.html">
+     Order food &nearrow;
+    </a>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-banner">
+    <div class="container">
+     <span class="eyebrow">
+      ORDER FLOW / STEP 2
+     </span>
+     <h1>
+      Place your order
+     </h1>
+     <p>
+      Fill in your details to see the next stage of the ordering process.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container form-layout">
+     <form action="delivery.html" class="panel form-panel" method="get">
+      <h2>
+       Order details
+      </h2>
+      <div class="form-grid">
+       <label>
+        Full name
+        <input name="customer" placeholder="Enter your name" required="" type="text"/>
+       </label>
+       <label>
+        Phone number
+        <input name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required="" title="Enter a 10-digit phone number" type="tel"/>
+       </label>
+       <label>
+        Choose a dish
+        <select name="dish" required="">
+         <option value="">
+          Select a dish
+         </option>
+         <option value="biryani">
+          Veg Biryani &mdash; ₹129
+         </option>
+         <option value="wrap">
+          Paneer Wrap &mdash; ₹99
+         </option>
+         <option value="dosa">
+          Masala Dosa &mdash; ₹89
+         </option>
+         <option value="rajma">
+          Rajma Rice &mdash; ₹109
+         </option>
+         <option value="idli">
+          Idli Sambar &mdash; ₹79
+         </option>
+         <option value="sandwich">
+          Veg Sandwich &mdash; ₹69
+         </option>
+        </select>
+       </label>
+       <label>
+        Quantity
+        <input max="20" min="1" name="quantity" required="" type="number" value="1"/>
+       </label>
+      </div>
+      <label>
+       Special instructions (optional)
+       <textarea name="notes" placeholder="Less spicy, extra chutney..." rows="4"></textarea>
+      </label>
+      <button class="btn primary" type="submit">
+       Continue to delivery &rarr;
+      </button>
+      <p class="notice">
+       Demo form only. No order data is saved or transmitted to a server.
+      </p>
+     </form>
+     <aside class="aside-card">
+      <span class="eyebrow">
+       THE NEXT STEP
+      </span>
+      <h3>
+       Almost there!
+      </h3>
+      <p>
+       Add a delivery address, then continue to the sample confirmation page.
+      </p>
+      <img alt="Paneer wrap illustration" src="https://commons.wikimedia.org/wiki/Special:FilePath/Vegetable%20Wrap%20%28toasted%29%20-%20The%20naan%20hut%202023-12-22.jpg?width=900"/>
+     </aside>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container footer-inner">
+    <div>
+     <a class="logo" href="index.html">
+      <span class="logo-icon">
+       ✳
+      </span>
+      Poshtik
+      <span>
+       Campus
+      </span>
+     </a>
+     <p>
+      Fresh meals. Happy campus days.
+     </p>
+    </div>
+    <div>
+     <strong>
+      Explore
+     </strong>
+     <p>
+      <a href="index.html#menu">
+       Menu
+      </a>
+      &middot;
+      <a href="delivery.html">
+       Delivery
+      </a>
+      &middot;
+      <a href="contact.html">
+       Contact
+      </a>
+     </p>
+    </div>
+    <small>
+     Student HTML &amp; CSS project &bull; Sample website only
+    </small>
+   </div>
+  </footer>
+ </body>
+</html>
+

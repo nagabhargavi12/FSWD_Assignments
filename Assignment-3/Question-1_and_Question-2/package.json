@@ -1,0 +1,12 @@
+{
+    "name":"question-1",
+    "version":"1.0.0",
+    "description":"College Canteen Menu using Node.js",
+    "main":"menu.js",
+    "scripts":{
+        "start":"node menu.js"
+    },
+    "keywords":[],
+    "author":"",
+    "license":"ISC"
+}
