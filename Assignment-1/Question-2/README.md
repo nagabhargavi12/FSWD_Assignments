@@ -1,13 +1,25 @@
-# Assignment 1 — Question 2 (1 mark)
+# Assignment 1 - Question 2
 
-Responsive webpage with **exactly six** Poshtik Campus dish illustrations, with each name and price shown below its image.
+## Project Title
 
-- `index.html`: Semantic HTML5 food gallery
-- `style.css`: External CSS3 with CSS Grid, 3 desktop columns, 2 tablet columns, 1 mobile column
-- `images/`: Six local SVG illustrations
-- **Before submitting:** add desktop and mobile screenshots after opening `index.html` in browser
+Poshtik Campus - Responsive Food Gallery
 
-Open `index.html` in a browser. No JavaScript or frameworks.
+## Objective
 
-## Food photographs
-Uses real food photographs from Wikimedia Commons (attributions in PHOTO_CREDITS.md). Internet access is required for the images to load.
+To design a responsive food gallery webpage using HTML5 and external CSS3.
+
+## Requirements
+
+1. Display 6 Poshtik Campus food item images.
+2. Show the dish name and price below each image.
+3. Use CSS Flexbox or CSS Grid for arranging food items.
+4. Display 3 columns on desktop screens.
+5. Display 1 column on mobile screens.
+6. Make the webpage responsive using CSS media queries.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- CSS Grid
+- CSS Media Queries
